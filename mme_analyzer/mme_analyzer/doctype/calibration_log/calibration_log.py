@@ -1,0 +1,2 @@
+class CalibrationLog:
+    pass
