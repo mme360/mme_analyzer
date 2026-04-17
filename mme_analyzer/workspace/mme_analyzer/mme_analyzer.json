@@ -1,0 +1,10 @@
+{
+  "doctype": "Workspace",
+  "name": "MME Analyzer",
+  "module": "MME Analyzer",
+  "label": "MME Analyzer",
+  "title": "MME Analyzer",
+  "public": 1,
+  "is_hidden": 0,
+  "content": "[]"
+}
