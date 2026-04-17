@@ -1,2 +1,5 @@
-class CalibrationLog:
+from frappe.model.document import Document
+
+
+class CalibrationLog(Document):
     pass
