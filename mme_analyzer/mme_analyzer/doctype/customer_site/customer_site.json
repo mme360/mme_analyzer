@@ -1,0 +1,23 @@
+{
+  "doctype": "DocType",
+  "name": "Customer Site",
+  "module": "MME Analyzer",
+  "custom": 0,
+  "istable": 0,
+  "field_order": [
+    "site_name",
+    "customer",
+    "city",
+    "country",
+    "primary_contact",
+    "status"
+  ],
+  "fields": [
+    {"fieldname": "site_name", "fieldtype": "Data", "label": "Site Name", "reqd": 1},
+    {"fieldname": "customer", "fieldtype": "Link", "label": "Customer", "options": "Customer"},
+    {"fieldname": "city", "fieldtype": "Data", "label": "City"},
+    {"fieldname": "country", "fieldtype": "Data", "label": "Country"},
+    {"fieldname": "primary_contact", "fieldtype": "Data", "label": "Primary Contact"},
+    {"fieldname": "status", "fieldtype": "Select", "label": "Status", "options": "Active\nInactive", "default": "Active"}
+  ]
+}
