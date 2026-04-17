@@ -1,0 +1,23 @@
+{
+  "doctype": "DocType",
+  "name": "Calibration Log",
+  "module": "MME Analyzer",
+  "custom": 0,
+  "istable": 0,
+  "field_order": [
+    "analyzer",
+    "kit_name",
+    "lot_number",
+    "calibration_status",
+    "run_time",
+    "notes"
+  ],
+  "fields": [
+    {"fieldname": "analyzer", "fieldtype": "Link", "label": "Analyzer", "options": "Analyzer", "reqd": 1},
+    {"fieldname": "kit_name", "fieldtype": "Data", "label": "Kit Name"},
+    {"fieldname": "lot_number", "fieldtype": "Data", "label": "Lot Number"},
+    {"fieldname": "calibration_status", "fieldtype": "Select", "label": "Calibration Status", "options": "Pass\nFail\nPending", "default": "Pending"},
+    {"fieldname": "run_time", "fieldtype": "Datetime", "label": "Run Time"},
+    {"fieldname": "notes", "fieldtype": "Small Text", "label": "Notes"}
+  ]
+}
