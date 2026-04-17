@@ -1,0 +1,27 @@
+{
+  "doctype": "DocType",
+  "name": "Support Incident",
+  "module": "MME Analyzer",
+  "custom": 0,
+  "istable": 0,
+  "field_order": [
+    "incident_title",
+    "analyzer",
+    "customer",
+    "customer_site",
+    "severity",
+    "status",
+    "reported_on",
+    "description"
+  ],
+  "fields": [
+    {"fieldname": "incident_title", "fieldtype": "Data", "label": "Incident Title", "reqd": 1},
+    {"fieldname": "analyzer", "fieldtype": "Link", "label": "Analyzer", "options": "Analyzer"},
+    {"fieldname": "customer", "fieldtype": "Link", "label": "Customer", "options": "Customer"},
+    {"fieldname": "customer_site", "fieldtype": "Link", "label": "Customer Site", "options": "Customer Site"},
+    {"fieldname": "severity", "fieldtype": "Select", "label": "Severity", "options": "Low\nMedium\nHigh\nCritical", "default": "Medium"},
+    {"fieldname": "status", "fieldtype": "Select", "label": "Status", "options": "Open\nIn Progress\nResolved\nClosed", "default": "Open"},
+    {"fieldname": "reported_on", "fieldtype": "Datetime", "label": "Reported On"},
+    {"fieldname": "description", "fieldtype": "Small Text", "label": "Description"}
+  ]
+}
