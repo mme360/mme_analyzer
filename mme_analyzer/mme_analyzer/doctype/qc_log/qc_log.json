@@ -1,0 +1,23 @@
+{
+  "doctype": "DocType",
+  "name": "QC Log",
+  "module": "MME Analyzer",
+  "custom": 0,
+  "istable": 0,
+  "field_order": [
+    "analyzer",
+    "control_level",
+    "result_status",
+    "run_time",
+    "lot_number",
+    "notes"
+  ],
+  "fields": [
+    {"fieldname": "analyzer", "fieldtype": "Link", "label": "Analyzer", "options": "Analyzer", "reqd": 1},
+    {"fieldname": "control_level", "fieldtype": "Data", "label": "Control Level"},
+    {"fieldname": "result_status", "fieldtype": "Select", "label": "Result Status", "options": "Pass\nFail\nWarning", "default": "Pass"},
+    {"fieldname": "run_time", "fieldtype": "Datetime", "label": "Run Time"},
+    {"fieldname": "lot_number", "fieldtype": "Data", "label": "Lot Number"},
+    {"fieldname": "notes", "fieldtype": "Small Text", "label": "Notes"}
+  ]
+}
