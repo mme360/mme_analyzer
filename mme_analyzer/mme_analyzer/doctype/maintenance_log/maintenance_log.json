@@ -1,0 +1,23 @@
+{
+  "doctype": "DocType",
+  "name": "Maintenance Log",
+  "module": "MME Analyzer",
+  "custom": 0,
+  "istable": 0,
+  "field_order": [
+    "analyzer",
+    "maintenance_type",
+    "performed_by",
+    "performed_on",
+    "status",
+    "notes"
+  ],
+  "fields": [
+    {"fieldname": "analyzer", "fieldtype": "Link", "label": "Analyzer", "options": "Analyzer", "reqd": 1},
+    {"fieldname": "maintenance_type", "fieldtype": "Select", "label": "Maintenance Type", "options": "Daily\nWeekly\nMonthly\nCorrective"},
+    {"fieldname": "performed_by", "fieldtype": "Data", "label": "Performed By"},
+    {"fieldname": "performed_on", "fieldtype": "Datetime", "label": "Performed On"},
+    {"fieldname": "status", "fieldtype": "Select", "label": "Status", "options": "Completed\nPending\nMissed", "default": "Pending"},
+    {"fieldname": "notes", "fieldtype": "Small Text", "label": "Notes"}
+  ]
+}
