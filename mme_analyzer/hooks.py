@@ -6,4 +6,6 @@ app_license = "MIT"
 
 required_apps = ["erpnext"]
 
+after_install = "mme_analyzer.install.after_install"
+
 fixtures = []
