@@ -4,6 +4,8 @@
   "module": "MME Analyzer",
   "custom": 0,
   "istable": 0,
+  "sort_field": "modified",
+  "sort_order": "DESC",
   "field_order": [
     "site_name",
     "customer",
@@ -19,5 +21,9 @@
     {"fieldname": "country", "fieldtype": "Data", "label": "Country"},
     {"fieldname": "primary_contact", "fieldtype": "Data", "label": "Primary Contact"},
     {"fieldname": "status", "fieldtype": "Select", "label": "Status", "options": "Active\nInactive", "default": "Active"}
+  ],
+  "permissions": [
+    {"role": "System Manager", "read": 1, "write": 1, "create": 1, "delete": 1, "print": 1, "email": 1, "report": 1, "export": 1, "share": 1},
+    {"role": "Desk User", "read": 1, "write": 1, "create": 1, "report": 1}
   ]
 }
