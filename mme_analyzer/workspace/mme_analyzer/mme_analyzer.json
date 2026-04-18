@@ -6,5 +6,6 @@
   "title": "MME Analyzer",
   "public": 1,
   "is_hidden": 0,
-  "content": "[]"
+  "icon": "setting-gear",
+  "content": "[{\"id\":\"header_main\",\"type\":\"header\",\"data\":{\"text\":\"MME Analyzer\",\"col\":12}},{\"id\":\"shortcut_analyzer\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Analyzers\",\"col\":3,\"link_to\":\"Analyzer\",\"type\":\"DocType\"}},{\"id\":\"shortcut_customer_site\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Customer Sites\",\"col\":3,\"link_to\":\"Customer Site\",\"type\":\"DocType\"}},{\"id\":\"shortcut_qc_log\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"QC Logs\",\"col\":3,\"link_to\":\"QC Log\",\"type\":\"DocType\"}},{\"id\":\"shortcut_calibration_log\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Calibration Logs\",\"col\":3,\"link_to\":\"Calibration Log\",\"type\":\"DocType\"}},{\"id\":\"shortcut_maintenance_log\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Maintenance Logs\",\"col\":4,\"link_to\":\"Maintenance Log\",\"type\":\"DocType\"}},{\"id\":\"shortcut_support_incident\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Support Incidents\",\"col\":4,\"link_to\":\"Support Incident\",\"type\":\"DocType\"}},{\"id\":\"shortcut_alert_rule\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Alert Rules\",\"col\":4,\"link_to\":\"Alert Rule\",\"type\":\"DocType\"}}]"
 }
