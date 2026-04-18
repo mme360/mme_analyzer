@@ -8,4 +8,13 @@ required_apps = ["erpnext"]
 
 after_install = "mme_analyzer.install.after_install"
 
+add_to_apps_screen = [
+    {
+        "name": "mme_analyzer",
+        "title": "MME Analyzer",
+        "route": "/desk/mme-analyzer",
+        "has_permission": "frappe.session.user != 'Guest'"
+    }
+]
+
 fixtures = []
