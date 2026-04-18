@@ -1,1 +1,3 @@
-
+[pre_model_sync]
+[post_model_sync]
+mme_analyzer.patches.v0_0.delete_shadow_pages.execute
